@@ -1,0 +1,58 @@
+.message__row {
+  display: flex;   
+  gap: 10px;
+  flex-direction: column;
+  border: 1px solid #000000;
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.admin_menu {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.button__wrapper {
+    display: flex;
+    gap: 10px;
+    max-width: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "open-sans";
+}
+
+.a:hover {
+    color: rgb(47, 111, 47);
+    font-style: italic;
+}
+
+.a {
+    border: 1px solid rgb(161, 192, 168);
+    padding: 3px 10px 3px 10px
+}
+
+.a_delete {
+    border: 1px solid rgb(192, 161, 161);
+    padding: 3px 10px 3px 10px
+}
+
+.a_delete:hover {
+    color: rgb(111, 47, 47);
+    font-style: italic;
+}
+
+.h2 {
+    font-family: "open-sans";
+    font-weight: bold;
+}
+
+
+.h1 {
+    margin: 30px 0px 0px 20px;
+    font-size: 20px;
+    font-family: "open-sans";
+    font-weight: bold;
+}

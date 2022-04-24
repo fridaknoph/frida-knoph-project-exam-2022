@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #F2F2F2;
+  font-family: "bilo";
+  margin: 0px;
+}
+
+.h2 {
+  padding: 20px 20px 0px 20px;
+  font-family: "haboro-contrast-normal";
+  font-weight: normal;
+  font-size: 35px;
+}
+
+#message__hidden {
+  display: none;
+}
+
+
+.description {
+  text-align: center;
+  padding: 30px 30px 0px 30px;
+}
+
+.my__img {
+  padding: 0px;
+}
+
+
+.h1 {
+  font-family: "haboro-contrast-normal";
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.header__img {
+  opacity: 0.5;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -webkit-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  -moz-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+}
+
+
+.header__img:hover {
+  opacity: 10;
+}
+
+.img__wrapper {
+  margin: auto;
+  height: 320px;
+  width: fit-content;
+  -webkit-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  -moz-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+}
+
+
+.img__wrapper > div {
+  -webkit-box-shadow: 1px 2px 3px 0px rgb(21, 21, 21);
+  -moz-box-shadow: 1px 2px 3px 0px rgb(114, 114, 114);
+  box-shadow: 1px 2px 3px 0px rgb(43, 34, 34);
+}
+
+
+.center__h2 {
+  font-family: "haboro-contrast-normal";
+  margin-top: 100px;
+  font-weight: normal;
+  font-size: 35px;
+  text-align: center;
+}
+
+.a__link {
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.hotels__name {
+  text-decoration: none;
+  font-family: "bilo";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+}
+
+.hotels__row {
+  flex-direction: column;
+  display: flex;
+  align-self: center;
+}
+
+
+.main__container {
+  flex-direction: column;
+  background-color: #E8E8E8;
+  display: flex;
+  max-width: 800px;
+  padding: 0px 00px 140px 00px;
+  margin: auto;
+  -webkit-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  -moz-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+}
+
+.nav__row {
+  background-color: #DFE2FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+   
+}
+
+.logo {
+  font-family: "acier-bat-solid";
+  color: black;
+  font-size: 34px;
+  letter-spacing: 5px;
+  margin: 20px 0px -9px 0px;
+
+}
+
+.slogan {
+  font-family: "playfair-display";
+  color: #5E5E5E;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.nav__logo {
+  font-family: "acier-bat-solid";
+  color: #ffffff;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.19);
+}
+
+.nav__links__row {
+  display: flex;
+  gap: 10px;
+  column-gap: 80px;
+
+}
+
+input {
+  padding: 1px 3px 1px 3px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__links {
+  display: flex;
+  gap: 10px;
+}
+
+
+.nav__search {
+  display: flex;
+  column-gap: 10px;
+  
+}
+
+input {
+  border-color: 1px #C9C9C9;
+  font-family: "bilo";
+  font-style: italic;
+
+}
+
+.form {
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.form__input {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  border-color: #CCD2FD;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.form__input__message {
+  padding: 5px 5px 50px 5px;
+  display: flex;
+  width: 100%;
+  border-color: #CCD2FD;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.default__button {
+  margin-top: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #20416D;
+  color: #ffffff;
+  border-color: 1px solid #5B647C;
+  font-size: 15px;
+  font-family: "bilo";
+
+}
+
+
+.nav__row__footer {
+  background-color: #DFE2FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 50px 10px 50px 10px;
+   
+}
+
+.error__message {
+  margin-top: 20px;
+  padding: 5px 40px 5px 40px;
+  background-color: #6d2020;
+  color: #ffffff;
+  border-color: 1px solid #5B647C;
+  font-size: 15px;
+  font-family: "bilo";
+}
+
+
+
+.message__sent {
+  margin-top: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #43933e;
+  color: #ffffff;
+  border-color: 1px solid #5e7c5b;
+  font-size: 15px;
+  font-family: "bilo";
+
+}
+
+.tourism__images {
+  margin-top: 10px;
+margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.img__tourism {
+  max-width: 30%;
+  margin: 0px;
+  -webkit-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  -moz-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+}
+
+.description__tourism {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.default__button__tourism {
+  
+  margin-top: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #20416D;
+  color: #ffffff;
+  border-color: 1px solid #5B647C;
+  font-size: 15px;
+  font-family: "bilo";
+  max-width: 200px;
+
+}
+
+.li__hotels {
+ text-align: center;
+ font-weight: bold;
+ text-decoration: underline; 
+}
+
+
+
+@media only screen and (min-width: 768px) {
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  .nav__links__row {
+    margin: 5px;
+}
+
+
+a {
+  font-size: 13px;
+}
+
+
+.search {
+
+  display: none;
+}
+
+  .img__wrapper {
+    margin: auto;
+    height: 320px;
+    width: fit-content;
+  }
+  
+
+.my__img {
+  margin: 20px;
+}
+}

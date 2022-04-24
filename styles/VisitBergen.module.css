@@ -1,0 +1,34 @@
+.h2 {
+    margin-bottom: 5px;
+  padding: 0px 0px 0px 0px;
+  font-family: "haboro-contrast-normal";
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.button__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bergen__container {
+    padding: 20px 40px 20px 40px;
+}
+
+.def__button {
+  font-family: "bilo";
+  font-size: 15px;
+  padding: 5px 40px 5px 40px;
+  background-color: #20416D;
+  color: #ffffff;
+  max-width: 200px;
+  border-color: 1px solid #5B647C;
+
+}
+
+.description {
+
+margin: auto;
+max-width: 60%;
+padding-bottom: 10px;
+}
