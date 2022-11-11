@@ -6,8 +6,8 @@ import style from "../styles/Admin.module.css";
 import deleteButton from "./utils/deleteButton";
 import { server } from "../config/index";
 import Router from "next/router";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+import useEffect from "react";
+import useRouter from "next/router";
 import Link from "next/link";
 
 function notLoggedIn() {

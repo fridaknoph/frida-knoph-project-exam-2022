@@ -21,7 +21,9 @@ export default function Product({ hotel }) {
       <Nav></Nav>
       <div className="main__container">
         <div className={style.details__container}>
-          <a href="/hotels">Back to Hotels</a>
+          <Link href="/hotels">
+            <a>Back to Hotels</a>
+          </Link>
 
           <h1 className="h1">{hotel.attributes.name}</h1>
           <div className={style.star_wrapper}>
@@ -52,17 +54,17 @@ export default function Product({ hotel }) {
               </div>
               <div className={style.socials}>
                 <Link href="https://www.instagram.com/">
-                  <a href="https://www.instagram.com/" target="_blank">
+                  <a>
                     <InstagramIcon />
                   </a>
                 </Link>
                 <Link href="https://twitter.com/">
-                  <a href="https://twitter.com/" target="_blank">
+                  <a>
                     <TwitterIcon />
                   </a>
                 </Link>
                 <Link href="https://www.facebook.com/">
-                  <a href="https://www.facebook.com/" target="_blank">
+                  <a>
                     <FacebookIcon />
                   </a>
                 </Link>

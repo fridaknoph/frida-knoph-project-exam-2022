@@ -15,28 +15,24 @@ export default function Nav() {
         <div className="nav__links__row">
           <div className="nav__links">
             <Link href="/">
-              <a href="/" className="nav__logo">
-                Holidaze
-              </a>
+              <a className="nav__logo">Holidaze</a>
             </Link>
             <Link href="hotels">
-              <a href="/hotels">Our Hotels</a>
+              <a>Our Hotels</a>
             </Link>
             <Link href="/contact">
-              <a href="/contact">Contact</a>
+              <a>Contact</a>
             </Link>
             <Link href="/visitbergen">
-              <a href="/visitbergen">Visit Bergen</a>
+              <a>Visit Bergen</a>
             </Link>
           </div>
           <div className="nav__search">
             <Link href="/login">
-              <a href="/login" onClick={() => Logout()}>
-                Log out
-              </a>
+              <a onClick={() => Logout()}>Log out</a>
             </Link>
             <Link href="/admin">
-              <a href="/admin">My Page</a>
+              <a>My Page</a>
             </Link>
             <Link href="/addhotel">Add a Hotel</Link>
             <input className="search" placeholder="Search..."></input>

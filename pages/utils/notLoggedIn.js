@@ -1,6 +1,6 @@
 import { parseCookies, setCookie, destroyCookie } from "nookies";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+import useEffect from "react";
+import useRouter from "next/router";
 
 export default function notLoggedIn() {
   const cookies = parseCookies();

@@ -21,20 +21,22 @@ export default function Hotels({ hotels }) {
           <h1 className="center__h2">Our Hotels</h1>
           {hotels.data.map((hotel) => (
             <>
-              <a href={`details/${hotel.attributes.slug}`}>
-                <h2 className="hotels__name">{hotel.attributes.name}</h2>
-                <div className="img__wrapper">
-                  <Image
-                    className="my_img"
-                    src={`${server}${hotel.attributes.image.data.attributes.url}`}
-                    width={500}
-                    height={320}
-                  />
-                </div>
-              </a>
-              <a className="a__link" href={``}>
-                About the hotel
-              </a>
+              <Link href={"details/"`${hotel.attributes.slug}`}>
+                <a className="">
+                  <h2 className="hotels__name">{hotel.attributes.name}</h2>
+                  <div className="img__wrapper">
+                    <Image
+                      className="my_img"
+                      src={`${server}${hotel.attributes.image.data.attributes.url}`}
+                      width={500}
+                      height={320}
+                    />
+                  </div>
+                </a>
+              </Link>
+              <Link href="">
+                <a className="a__link">About the hotel</a>
+              </Link>
             </>
           ))}
         </div>

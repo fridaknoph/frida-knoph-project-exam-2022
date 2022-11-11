@@ -91,7 +91,7 @@ export default function Login() {
           <div>Password</div>
           <input
             type="password"
-            autocomplete="current-password"
+            autoComplete="current-password"
             className="form__input"
             {...register("password")}
             onChange={(e) => setPassword(e.target.value)}

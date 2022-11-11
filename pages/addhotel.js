@@ -128,7 +128,7 @@ export default function AddHotel() {
           )}
 
           <div className={style.number__container}>
-            <span class={style.number__child}>
+            <span className={style.number__child}>
               <div>Price</div>
               <div className={style.hotel__desc}>
                 Price for staying one night
@@ -147,7 +147,7 @@ export default function AddHotel() {
               )}
             </span>
 
-            <span class={style.number__child}>
+            <span className={style.number__child}>
               <div>Stars</div>
               <div className={style.hotel__desc}>Stars given</div>
               <input
@@ -164,7 +164,7 @@ export default function AddHotel() {
               )}
             </span>
 
-            <span class={style.number__child}>
+            <span className={style.number__child}>
               <div>Rating</div>
               <div className={style.hotel__desc}>Rating given by costumers</div>
               <input
